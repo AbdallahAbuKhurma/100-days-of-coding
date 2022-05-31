@@ -25,7 +25,7 @@ function _keystroke (keyCase) {
         }
         //grap current value
         var output = $('.output input').val();
-        $outputField.val(output + keyValue);
+        $outputField.val(output + keyVal);
         getCurrentValue();
         focusOutputField();
     });
